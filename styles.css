@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #FFD90F;
+    
+}
+
+.news-container {
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    box-shadow: 10px 11px 15px -10px rgba(0,0,0,0.55);
+}
+
+.news-container h1 {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.news-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    
+    
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+}
+
+.news-info  p{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    margin-top: 2px;
+}
+
+.new-title {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+.new-title h2 {
+    font-family: sans-serif;
+    font-size: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.body-news-container {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.left {
+    width: 50%;
+    height: auto;
+    border-right: solid 1px black;
+}
+
+.left .news h3 {
+    font-size: 2.5rem;
+    padding: 5px;
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+}
+
+.new-pharagraph {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.new-pharagraph p {
+    text-align: justify;
+    margin: 5px;
+}
+
+.right {
+    width: 50%;
+    height: auto;
+    padding-left: 10px;
+}
+
+.right .pic-news .img-container {
+    width: 100%;
+    height: 180px;
+    background: url(https://i.ibb.co/f8SdZ9Y/Screen-Shot-2021-04-09-at-2-28-04-PM.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.right p {
+    margin-top: 10px;
+    text-align: justify;
+}
